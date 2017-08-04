@@ -61,6 +61,37 @@ li {
     margin: 0 0 10px 0;
 }
 
+form {
+    font-size: 1.2em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+    display: block;
+    width: 600px;
+}
+
+input {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+
+input:focus {
+    border: 0.5 px solid #002987;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
 code {
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
@@ -74,4 +105,23 @@ code {
     -webkit-border-radius: 5px;
     padding-right: 0.2em;
     padding-left: 0.2em;
+}
+
+.email-subscribe-form label {
+    display: block;
+}
+
+.email-subscribe-form div {
+    display: inline-block;
+}
+
+.email-subscribe-form input[type="submit"] {
+    display: inline-block;
+    background-color: #002987;
+    color: #FFFFFF;
+}
+
+.email-input {
+    width: 300px;
+    display: inline-block;
 }
