@@ -127,5 +127,6 @@ code {
 }
 
 .post-date {
-    width: 200px;
+    width: 131px;
+    display: inline-block;
 }
