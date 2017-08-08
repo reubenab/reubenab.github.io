@@ -93,7 +93,6 @@ input[type="submit"]:hover {
 }
 
 pre {
-    background: #F4F4F4;
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -106,7 +105,7 @@ code {
     white-space: -o-pre-wrap;
     font-family: Courier, 'New Courier', monospace;
     font-size: 95%;
-    background-color: #F4F4F4;
+    background-color: #F8F8F8;
     color: #002987;
     border-radius: 5px;
     -moz-border-radius: 5px;

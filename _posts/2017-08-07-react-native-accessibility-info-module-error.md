@@ -70,4 +70,3 @@ Update the `package.json` file inside `dirA` so that `react-native` is a peerDep
 Then run `yarn cache clean` to stop how yarn previously cached the dependencies. Then from inside `dirA`, run `yarn install; cd RNExample; yarn install`. Double check that you don't have the second `react-native` module inside `RNExample/node_modules/dirA/node_modules`. Finally run `npm start -- --reset-cache` and you should be good to go!
 
 Hopefully this saves all of you a few dev hours that you can use more productively!
-
