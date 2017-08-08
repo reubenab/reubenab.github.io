@@ -50,7 +50,7 @@ Once we run `yarn install` in both `dirA` and `dirA/RNExample`, and end up with 
 
 ## The Long Term Solution
 Update the `package.json` file inside `dirA` so that `react-native` is a peerDependency. This means `package.json` should look something like this:
-```javascript
+```json
 {
   "name": "dirA",
   "author": "Reuben Abraham",
