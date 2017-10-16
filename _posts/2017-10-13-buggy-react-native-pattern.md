@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "The JS Pattern That Could Break Your React Native App: Raw text must be wrapped in explicit <Text> component"
+title: "The JS Pattern That Could Break Your React Native App"
 date: 2017-09-08
 ---
 
-Last week, our app suddenly started crashing for all our mobile developers on stage. The fun part - there was no commit that this could be immediately traced to. Even after rolling back to commits from days ago, the app continued to crash, despite the fact that at that time those commits were made, it was running seamlessly.
+## Raw text must be wrapped in explicit <Text> component
+
+Last week, our app suddenly started crashing for all our mobile developers on stage with the above error. The fun part - there was no commit that this could be immediately traced to. Even after rolling back to commits from days ago, the app continued to crash, despite the fact that at that time those commits were made, it was running seamlessly.
 
 ## The Error Message
 The specific error message that displayed was that we had a raw string that was not surrounded by a `<Text>` component, and so the app was unable to properly render it and threw an error. Unfortunately, the error did not display specifically which line or file this was happening on. None of us could continue developing and testing while this error persisted, so our whole team started investigating the issue. 
