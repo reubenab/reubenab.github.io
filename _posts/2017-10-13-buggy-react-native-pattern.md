@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The JS Pattern That Could Break Your React Native App"
-date: 2017-09-08
+date: 2017-10-18
 ---
 
 ## Raw text must be wrapped in explicit <Text> component
