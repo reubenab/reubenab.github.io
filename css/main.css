@@ -30,6 +30,11 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     transform: skewX(-7deg)
 }
+h3 { 
+    font-size: 1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    transform: skewX(-7deg)
+}
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -98,12 +103,13 @@ pre {
     padding-bottom: 10px;
     padding-left: 10px;
     font-size: 140%;
+    overflow-x: scroll;
 }
 
 code {
-    white-space: pre-wrap;
+    /*white-space: pre-wrap;
     white-space: -moz-pre-wrap;
-    white-space: -o-pre-wrap;
+    white-space: -o-pre-wrap;*/
     font-family: Courier, 'New Courier', monospace;
     background-color: #F8F8F8;
     color: #002987;
